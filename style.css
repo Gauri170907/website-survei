@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#Judul1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.button1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 70px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    transition-duration: 1s;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 20px 10px black;
+}
+
+.div1{
+    background-image: url("./assets/Fotoformal.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.tengah {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    transform: scale(.8);
+}
+ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+
+.icon {
+    float: left;
+}
+
+.profile {
+    width: 60px;
+}
+
+
+li {
+    font-size: 16px;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+
+.desktop {
+    color: black;
+    transition-duration: 1s;
+}
+
+.desktop:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-green {
+    background-color: green;
+    color: white;
+}
+
+.mobile{
+    color: black;
+    transition: 1s;
+}
+
+.mobile:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    .mobile {
+        display: inline-block;
+    }
+    .desktop{
+        display: inline-block;
+    }
+    .button1, .button2 {
+        font-size: 40px;
+    }
+    .video1{
+        width: 250px;
+        border-radius: 5px;
+    }
+}
+
+
+.section-introduction, .section-example, .section-solution, .section-closing{
+    text-align: center;
+    display: inline-block;
+    margin-top: 5em;
+    padding-left: 35px;
+}
+#solution {
+    height: 170px;
+}
+
+.p-perkenalan, .p-contoh, .p-solusi, .p-closing{
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#div-video{
+    text-align: center;
+}
+.judulvideo{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 50px;
+    padding: 20px 30px;
+}
+
+.video1{
+    height: 750px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 70px;
+}
+.text-video{
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 44em;
+    margin: 1em auto;
+    margin-bottom: 100px;
+    text-align: justify
+}
+.buttonGF{
+    text-align: center;
+}
+.button2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    transition-duration: 1s;
+}
+.button2:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 20px 10px black;
+}
+
+caption {
+    display: block;
+    caption-side: bottom;
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
